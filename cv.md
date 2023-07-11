@@ -24,7 +24,7 @@ I will try to write my first code with you
 My work experience is bank manager since 2014
 
 ----------------------------------
-I have higher education. Editor by profession...
+I have higher education. Editor by profession.
 
 ----------------------------------
 English level A1
