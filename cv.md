@@ -1,7 +1,5 @@
 
-
 ## Hello this is my first CV here
-
 ----------------------------------
 **My name is Tatyana Budylina**
 
