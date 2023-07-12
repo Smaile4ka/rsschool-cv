@@ -1,10 +1,10 @@
 
 ## Hello this is my first CV here
 ----------------------------------
-**My name is Tatyana Budylina**
+**My name is Tatyana**
 
 ----------------------------------
-My contact phone ***9175754271***
+My contact phone ***917-----***
 
 ----------------------------------
 I want to become a Junior and get a new profession. It would be nice to prove that you can become a Java skript developer
