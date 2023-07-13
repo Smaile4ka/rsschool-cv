@@ -6,6 +6,7 @@
  html
  {  
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 .header
@@ -82,7 +83,7 @@ body {
   }
   
   .section {
-   width: 50%;
+   width: 100%;
   }
 
    * {
