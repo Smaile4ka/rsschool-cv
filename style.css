@@ -10,27 +10,27 @@
 
 .header
 {
-  height: 50px;
+  height: 20px;
   text-align: center;
   display: flex;
 }
 
 .title
-  { color: rgb(45, 7, 151);
-    font-size: 36px;
+  { color: rgb(63, 42, 203);
+    font-size: 36px; 
   }
 
 img.displayed
 
-{  
-display:inline flex;
+{ 
+display:inline flex; 
 margin-left: auto;
 margin-right: auto;
-padding: 30px 0;
+padding: 20px 0;
 }
 
 body {
-  background-color: #77ca89;
+  background-color: #8de29d;
   background-image: url(assets/img/Фон.jpg);
   font-family: 'Chela One', inherit;
   font-weight: bold;
@@ -40,11 +40,9 @@ body {
   justify-content: space-between;
   padding: 70px;
   line-height: 1.5;
-  color: #177c05;
+  color: #075427;
 
 } 
-
-
 
 .nav-list {
   display:flex;
@@ -64,7 +62,7 @@ body {
 
   .link {
     text-decoration: none;
-    color: #c6fa1a;
+    color: #e0e70d;
     transition: color 0.5s;
   }
   
@@ -75,6 +73,7 @@ body {
   .container {
     max-width: 1200px;
     margin:0 auto;
+  
    
   }
   .main-container {
@@ -91,7 +90,7 @@ body {
   }
 
   .section-item a {
-    color: #ceed04;
+    color: aquamarine ;
     text-decoration: none;  
    transition: color 0.5s;
   }
@@ -105,9 +104,8 @@ body {
     font-weight: 800;
     text-transform: capitalize;
     letter-spacing: 5px;
-    color: #177224;
+    color: #1ab886;
   }
-
 
   @media (max-width: 768px) 
   {
@@ -126,8 +124,7 @@ body {
     left: 0px;
     width: 10px;
     height: 10px; 
-    border: 1px solid #829985;
+    border: 1px solid #098019;
     border-radius: 50%;
   }
-
   
