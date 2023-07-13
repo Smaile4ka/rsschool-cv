@@ -6,7 +6,7 @@
  html
  {  
   scroll-behavior: smooth;
-  height: 100%;
+ 
 }
 
 .header
@@ -18,11 +18,11 @@
 
 .title
   { color: rgb(63, 42, 203);
-    font-size: 36px; 
+    font-size: 50px; 
+    text-transform: lowercase;
   }
 
 img.displayed
-
 { 
 display:inline flex; 
 margin-left: auto;
@@ -39,9 +39,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 70px;
+  padding: 50px;
   line-height: 1.5;
   color: #075427;
+  border: 10px dotted rgb(126, 126, 238);
+  min-height: 100vh;
 
 } 
 
@@ -50,7 +52,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  
+  text-align: center;
 }
 
   .nav-link 
@@ -59,61 +61,69 @@ body {
     line-height: 50px;
     text-decoration:underline;
     transition: .3s;
-  }
-
-  .link {
-    text-decoration: none;
-    color: #e0e70d;
-    transition: color 0.5s;
+    color: #0e7cc5;
+    font-size: 25px;
+   
   }
   
-  .link:hover {
+  .nav-link:hover {
     color: #0df02f;
+    text-decoration: none;  
+    transition: color 0.5s;
   }
 
   .container {
-    max-width: 1200px;
-    margin:0 auto;
+    width: 1440px;
+    max-width: 100%;
   
-   
   }
-  .main-container {
+
+
+  .content-wrapper {
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  .section {
-   width: 100%;
-  }
+  .section 
+  {
+  width: 59%;
+}
 
    * {
     box-sizing: border-box;
   }
 
-  .section-item a {
-    color: aquamarine ;
+  .section-item a:hover {
+    color: #829985;
     text-decoration: none;  
-   transition: color 0.5s;
+    transition: color 0.5s;
+    cursor: pointer
   }
 
   .section-item a:hover {
-    color: #1fe936;
+    color: #4d2323;
   }
-
+   
+  
   .section-title {
     font-size: 25px;
     font-weight: 800;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 5px;
-    color: #1ab886;
+    color: #1a9d81;
+
   }
 
   @media (max-width: 768px) 
   {
-    .section {
-      width: 50%;
+    .scontent-wrapper {
+      width: 100%;
     }
-  
+
   * {
     box-sizing: border-box;
   }
@@ -125,7 +135,7 @@ body {
     left: 0px;
     width: 10px;
     height: 10px; 
-    border: 1px solid #098019;
+    border: 1px solid #14f132;
     border-radius: 50%;
   }
   
