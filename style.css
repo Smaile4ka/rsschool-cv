@@ -3,10 +3,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
  </style>
 
- html
+ html, body
  {  
-  scroll-behavior: smooth;
- 
+ scroll-behavior: smooth;
+ width: 100%;
 }
 
 .header
